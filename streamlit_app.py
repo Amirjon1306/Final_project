@@ -12,7 +12,7 @@ st.title('Diabetes Prediction using Decision Tree')
 
 # # EDA (Exploratory Data Analysis)
 # Загрузка данных
-data = pd.read_csv('diabetes_prediction_dataset.csv.zip')
+data = pd.read_csv('https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset')
 data = data[data['smoking_history'] != 'No Info']
 
 # Кодирование категориальных признаков для корреляционной матрицы
