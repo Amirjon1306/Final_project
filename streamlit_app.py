@@ -24,7 +24,7 @@ with st.expander('Data'):
 
 with st.sidebar:
   st.header("Введите признаки: ")
-  age = st.slider('age', 0, 80, 43)
+  age = st.slider('age', '0', '80', '43')
   hypertension = st.selectbox('hypertension', ('0', '1'))
   bmi = st.slider('bmi','10', '95.7', '27.3')
   HbA1c_level = st.slider('HbA1c_level', '3.5', '9', '5.8')
