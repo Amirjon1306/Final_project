@@ -8,6 +8,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix, classification_report
 
 # Заголовок приложения
+uploaded_file = st.file_uploader("diabetes_prediction_dataset.csv.zip", type=["csv"])
 st.title('Diabetes Prediction using Decision Tree')
 
 # # EDA (Exploratory Data Analysis)
