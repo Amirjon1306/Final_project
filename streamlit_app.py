@@ -27,7 +27,7 @@ with st.sidebar:
   hypertension = st.selectbox('hypertension', ('0', '1'))
   age = st.slider('age', 0, 80, 43)
   bmi = st.slider('bmi', 10, 95, 27.3)
-  HbA1c_level = st.slider('HbA1c_level', 3.5, 9, 5.8)
+  hbA1c_level = st.slider('HbA1c_level', 3.5, 9, 5.8)
   blood_glucose_level = st.slider('blood_glucose_level', 80, 300, 140)
   gender = st.selectbox('Gender', ('female', 'male'))
 
